@@ -1,4 +1,5 @@
 ActiveAdmin.register Hotel do
+  permit_params :name, :address, :code, :active
 
   
   # See permitted parameters documentation:
